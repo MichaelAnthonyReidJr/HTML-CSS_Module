@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header, footer { 
+    background-color: black;
+    color: white;
+    top:0;
+    align-items: center;
+}
+ .PremiumContainer {
+    display: flex;
+    text-align: center;
+    background-color: #ffcdd2;
+    flex-direction: column;
+    font-weight: bold;
+    color: #d83519;
+    padding: 7.5vh;
+    font-size: 30px;
+}
+.PremiumContainer p:nth-of-type(2){
+    font-size: small;
+}
+.PremiumContainer button {
+    background-color: #d83519;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border-radius: 15px;
+    border-color: #d83519;
+    font-style: bold;
+    flex-direction: center;
+    margin:auto;   
+} 
+.Look4MusicContainer {
+    display: flex;
+    text-align: center;
+    background-color: #2941ab;
+    color:#1ed760;
+    flex-direction: column;
+    padding: 7.5vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Look4MusicContainer p {
+    margin-bottom: 25px ;
+}
+
+.Look4MusicContainer p:nth-of-type(2){
+    font-size: 15px;
+
+}
+.Look4MusicContainer button {
+    background-color: #1ed760;
+    padding: 10px 10px;
+    font-size: 12px;
+    color: white;
+    border-radius: 15px;
+    border-color:#1ed760;
+    font-weight: bold;
+    display: flex;
+    flex-direction: center;
+    margin:auto;
+}
